@@ -37,7 +37,7 @@
                         <?= form_error('tanggal_masuk', '<small class="text-danger">', '</small>'); ?>
                     </div>
                 </div>
-                <div class="row form-group">
+                <!-- <div class="row form-group">
                     <label class="col-md-4 text-md-right" for="supplier_id">Supplier</label>
                     <div class="col-md-5">
                         <div class="input-group">
@@ -53,7 +53,7 @@
                         </div>
                         <?= form_error('supplier_id', '<small class="text-danger">', '</small>'); ?>
                     </div>
-                </div>
+                </div> -->
                 <div class="row form-group">
                     <label class="col-md-4 text-md-right" for="barang_id">Barang</label>
                     <div class="col-md-5">
