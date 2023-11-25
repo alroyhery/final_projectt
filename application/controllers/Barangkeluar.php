@@ -25,7 +25,17 @@ class Barangkeluar extends CI_Controller
         $this->form_validation->set_rules('barang_id', 'Barang', 'required');
 
         $input = $this->input->post('barang_id', true);
-        $stok = $this->admin->get('barang', ['id_barang' => $input])['stok'];
+
+        $barangData = $this->admin->get('barang', ['id_barang' => $input]);
+
+// Check if $barangData is an array and if 'stok' key exists
+if (is_array($barangData) && array_key_exists('stok', $barangData)) {
+    $stok = $barangData['stok'];
+} else {
+    // Handle the case where 'stok' key doesn't exist or $barangData is not an array
+    $stok = 0; // Or set a default value
+}
+
         $stok_valid = $stok + 1;
 
         $this->form_validation->set_rules(

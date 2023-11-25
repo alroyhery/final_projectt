@@ -66,12 +66,12 @@
             </div>
 
             <!-- Nav Item - Dashboard -->
-            <!-- <li class="nav-item">
+            <li class="nav-item">
                 <a class="nav-link pb-0" href="<?= base_url('supplier'); ?>">
                     <i class="fas fa-fw fa-users"></i>
-                    <span>Supplier</span>
+                    <span>Vendor</span>
                 </a>
-            </li> -->
+            </li> 
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
@@ -227,7 +227,7 @@
             <footer class="sticky-footer bg-light">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Aplikasi Pengadaan Barang 2019 &bull; by <?= anchor('https://www.arfan.id', 'Arfan.id'); ?></span>
+                        <span>Copyright &copy; Aplikasi Pengadaan Barang 2023 </span>
                     </div>
                 </div>
             </footer>
