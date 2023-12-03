@@ -26,7 +26,7 @@
                     <th>No. </th>
                     <th>No Transaksi</th>
                     <th>Tanggal Masuk</th>
-                    <!-- <th>Supplier</th> -->
+                    <th>Vendor</th> 
                     <th>Nama Barang</th>
                     <th>Jumlah Masuk</th>
                     <th>User</th>
@@ -43,7 +43,7 @@
                             <td><?= $no++; ?></td>
                             <td><?= $bm['id_barang_masuk']; ?></td>
                             <td><?= $bm['tanggal_masuk']; ?></td>
-                            <!-- <td><?= $bm['nama_supplier']; ?></td> -->
+                            <td><?= $bm['nama_supplier']; ?></td> 
                             <td><?= $bm['nama_barang']; ?></td>
                             <td><?= $bm['jumlah_masuk'] . ' ' . $bm['nama_satuan']; ?></td>
                             <td><?= $bm['nama']; ?></td>

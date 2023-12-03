@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col">
                         <h4 class="h5 align-middle m-0 font-weight-bold text-primary">
-                            Form Edit Supplier
+                            Form Edit Vendor
                         </h4>
                     </div>
                     <div class="col-auto">
@@ -24,7 +24,7 @@
                 <?= $this->session->flashdata('pesan'); ?>
                 <?= form_open('', [], ['id_supplier' => $supplier['id_supplier']]); ?>
                 <div class="row form-group">
-                    <label class="col-md-3 text-md-right" for="nama_supplier">Nama Supplier</label>
+                    <label class="col-md-3 text-md-right" for="nama_supplier">Nama Vendor</label>
                     <div class="col-md-9">
                         <div class="input-group">
                             <div class="input-group-prepend">

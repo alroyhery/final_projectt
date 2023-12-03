@@ -38,7 +38,7 @@
                     </div>
                 </div>
                 <div class="row form-group">
-                    <label class="col-md-4 text-md-right" for="supplier_id">Supplier</label>
+                    <label class="col-md-4 text-md-right" for="supplier_id">Vendor</label>
                     <div class="col-md-5">
                         <div class="input-group">
                             <select name="supplier_id" id="supplier_id" class="custom-select">
